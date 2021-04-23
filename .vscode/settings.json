@@ -1,5 +1,16 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.workingDirectories": [
+      "./../src"
+    ],
+ "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": false
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+},
+  "eslint.options": {
+    "rules": {
+      "no-debugger": "off"
+    }
+  },
 }
