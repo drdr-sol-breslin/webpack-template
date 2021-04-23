@@ -1,4 +1,4 @@
-import "./styles.scss";
+import './styles.scss';
 
 class App {
   constructor() {
@@ -6,7 +6,7 @@ class App {
   }
 
   sayHello() {
-    document.body.innerHTML = "hello";
+    document.body.innerHTML = 'hello';
   }
 
   static getInstace() {
@@ -18,6 +18,6 @@ class App {
   }
 }
 
-window.addEventListener("load", () => {
+window.addEventListener('load', () => {
   App.getInstace();
 });
