@@ -7,7 +7,6 @@ class App {
 
   sayHello() {
     document.body.innerHTML = 'hello';
-    const bob = 'bob';
   }
 
   static getInstace() {
